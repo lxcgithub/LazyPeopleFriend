@@ -1,0 +1,10 @@
+package &package&.mvpview;
+
+import com.joeyzh.base.jazz.mvp.BaseView;
+
+/**
+ * @author lxc
+ */
+public interface &className&View extends BaseView {
+
+}

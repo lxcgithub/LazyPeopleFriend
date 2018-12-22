@@ -1,0 +1,46 @@
+<idea-plugin>
+  <id>com.lazy.mvp</id>
+  <name>MVPLazy</name>
+  <version>1.0</version>
+  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+  <actions>
+    <!-- 生成 Mvp 文件 -->
+    <action id="mvp" class="mvp.AndroidMvpAction" text="MvpFile" description="Help you to quickly generate a mvp.template">
+      <add-to-group group-id="NewGroup" anchor="last"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt M"/>
+    </action>
+    <!-- 生成 Mvp 文件 -->
+    <action id="http" class="http.HttpAction" text="HttpGenerate" description="Help you to quickly generate a Http request ">
+      <add-to-group group-id="NewGroup" anchor="last"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt P"/>
+    </action>
+
+  </actions>
+
+
+  <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+</idea-plugin>

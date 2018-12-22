@@ -1,0 +1,13 @@
+package &package&.presenter;
+
+import com.joeyzh.base.jazz.mvp.BasePresenter;
+import &package&.mvpview.&className&View;
+
+
+/**
+ * @author lxc
+ */
+public class &className&Presenter extends BasePresenter<&className&View> {
+
+
+}

@@ -1,0 +1,34 @@
+package &package&.ui.activity;
+
+import android.view.View;
+
+import &package&.mvpview.&className&View;
+import &package&.presenter.&className&Presenter;
+import com.joeyzh.base.jazz.mvp.BaseMvpActivity;
+
+/**
+ * @author lxc
+ */
+public class &className&Activity extends BaseMvpActivity<&className&View,
+		&className&Presenter> implements &className&View, View.OnClickListener {
+
+	@Override
+	public void initView() {
+		setContentView(R.layout.);
+		setTitle("");
+	}
+
+	@Override
+	protected &className&Presenter createPresenter() {
+		return new &className&Presenter();
+	}
+
+	@Override
+	public void onClick(View v) {
+		switch (v.getId()) {
+			default:
+				break;
+		}
+	}
+
+}

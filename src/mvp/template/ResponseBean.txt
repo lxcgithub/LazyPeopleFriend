@@ -1,0 +1,8 @@
+package &package&.entity;
+
+/**
+ * @author lxc
+ */
+public class &className&ResponseBean {
+    
+}

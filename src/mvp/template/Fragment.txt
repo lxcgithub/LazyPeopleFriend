@@ -1,0 +1,47 @@
+package &package&.ui.fragment;
+
+
+import android.view.View;
+import android.widget.Toast;
+
+import com.hsyg.cvs.R;
+import com.hsyg.cvs.constant.GlobalMessage;
+import &package&.entity.&className&RequestBean;
+import &package&.entity.&className&ResponseBean;
+import &package&.presenter.&className&PresenterImpl;
+import &package&.mvpview.&className&View;
+import com.hsyg.sdk_lib.base.BaseCommonBean;
+import com.hsyg.sdk_lib.base.BaseFragment;
+import com.hsyg.sdk_lib.events.NotifyInfo;
+import com.hsyg.sdk_lib.util.toast.ToastUtil;
+
+/**
+ * @author lxc
+ */
+public class &className&Fragment extends BaseFragment<&className&View,
+		&className&PresenterImpl> implements &className&View, View.OnClickListener {
+
+	@Override
+	public void initVariables() {
+
+	}
+
+	@Override
+	public void initView() {
+
+	}
+
+	@Override
+	protected &className&PresenterImpl createPresenter() {
+		return new &className&PresenterImpl();
+	}
+
+	@Override
+	public void onClick(View v) {
+		switch (v.getId()) {
+			default:
+				break;
+		}
+	}
+
+}
